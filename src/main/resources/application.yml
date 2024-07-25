@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: elasticsearch-client
+  mvc:
+    servlet:
+      path: /api/c
+
+
+server:
+  port: 18080
+
+
+elasticsearch:
+  port: 9200
+  ip: localhost
